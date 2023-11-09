@@ -1,4 +1,4 @@
-:warning: Use this repo as old Rakound project is no longer being maintained :warning:
+:warning: **Use this repo as old Rakound project is no longer being maintained** :warning:
 
 ![Rakound-NG](https://github.com/Tamhackti/Rakound-NG/assets/3861998/1ff2ac48-f776-412c-8e2e-6e77a0405c48)
 # Rakound-NG
