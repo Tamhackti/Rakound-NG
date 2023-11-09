@@ -1,6 +1,7 @@
 :warning: **Use this repo as old Rakound project is no longer being maintained** :warning:
 
-![Rakound-NG](https://github.com/Tamhackti/Rakound-NG/assets/3861998/1ff2ac48-f776-412c-8e2e-6e77a0405c48)
+![Rakound-NG](https://github.com/Tamhackti/Rakound-NG/assets/3861998/3d5b6527-f52f-40bc-8a24-0556b743dbde)
+
 # Rakound-NG
 
 Rakound-NG is a tool written in Python. Its main goal is to simplify vizualisation of Bloodhound data. It allows to access insignificant data, such as passwords, stored in Active Directory. The tool is provided with various queries in order to retrieve valuable data.
