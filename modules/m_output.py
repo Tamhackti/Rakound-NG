@@ -13,7 +13,7 @@ class Output():
     def printTable(self):
         row = []
         count = 0
-        table = PrettyTable(hrules=prettytable.ALL)
+        table = PrettyTable(hrules=ALL)
         table.field_names = self.keys
         table.max_width = 100
         for data in self.results:
