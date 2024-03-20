@@ -41,7 +41,7 @@ class Help:
         print('Usage :\n\tcomputer <option> [export]')
         print('Options :')
         print('\tlaps : get computers on which LAPS is installed')
-        print('\tobsolete : retrieve all obsolete OS (can provide false positive with reality)')
+        print('\toutdated : retrieve all outdated OS (can provide false positive with reality)')
 
     def password(self):
         print('Description :\n\tQuery data on passwords')

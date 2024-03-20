@@ -13,18 +13,18 @@ class Computers():
         if not driver.status():
             return
         if len(args) < 1:
-            print(Fore.RED,'Missing action : laps|obsolete',Fore.WHITE)
+            print(Fore.RED,'Missing action : laps|outdated',Fore.WHITE)
         else:
             action = args[0]
             resultwriter = None
             output = None
-            if action == "obsolete":
+            if action == "outdated":
                 resultSet,session = driver.query(q_computers.Computers().getObsolete())
                 output = q_output.Output(resultSet)
                 output.printTable()
                 if "export" in args:
                     output.createCSV(datetime.datetime.now().strftime('%Y%m%d-%H%M_')
-                                     + 'Computer_obsolete.csv')
+                                     + 'Computer_outdated.csv')
                 session.close()
             elif action == "laps":
                 resultSet,session = driver.query(q_computers.Computers().getLAPS())
@@ -35,5 +35,5 @@ class Computers():
                                      + 'Computer_laps.csv')
                 session.close()
             else:
-                print(Fore.RED,'Unrecognized action. Expected: laps|obsolete',Fore.WHITE)
+                print(Fore.RED,'Unrecognized action. Expected: laps|outdated',Fore.WHITE)
 

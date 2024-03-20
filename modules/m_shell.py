@@ -30,7 +30,7 @@ user_actions = ["localadmin", "localadmin=enabled", "localadminDC", "localadminD
 
 password_actions = [ "changeddate", "changeddate=enabled", "comment", "comment=enabled", "userpassword", "userpassword=enabled" ]
 
-computer_actions = [ "laps", "obsolete" ]
+computer_actions = [ "laps", "outdated" ]
 
 stats_actions = [ "password", "password=enabled" ]
 stats_password_parameters = [ "user", "admin", "all" ]

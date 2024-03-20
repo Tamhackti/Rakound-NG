@@ -19,13 +19,13 @@ at the end of the command:
 
 A csv file will be generated in "**exports**" directory.
 
-computer obsolete
+computer outdated
 -----------------
-This submodule finds all computers with obsolete OS.
+This submodule finds all computers with outdated OS.
 
 .. code-block:: none
 
-    🦝 > computer obsolete
+    🦝 > computer outdated
 
 computer laps
 -------------
